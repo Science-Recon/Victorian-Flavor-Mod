@@ -1183,3 +1183,5 @@
 #New Locs
  dyn_c_british_united_kingdom:1 "United Kingdom"
  dyn_c_british_united_kingdom_adj:1 "British"
+ NFL:0 "Newfoundland"
+ NFL_ADJ:0 "Newfoundlander"

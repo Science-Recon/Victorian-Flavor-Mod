@@ -1,0 +1,48 @@
+subject_can_perform_diplo_play = {
+	OR = {
+		NOT = { is_subject_type = subject_type_chartered_company }
+		scope:target = { 
+			AND = {
+				NOT = { is_country_type = colonial }
+				NOT = { is_country_type = recognized }
+				NOT = {
+					any_overlord_or_above = {
+						OR = {
+							is_country_type = colonial
+							is_country_type = recognized
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+subject_can_join_diplo_play = {
+	OR = {
+		NOT = { is_subject_type = subject_type_chartered_company }
+		scope:initiator = scope:overlord
+		AND = {
+			scope:target = {
+				NOT = {
+					any_overlord_or_above = {
+						OR = {
+							is_country_type = colonial
+							is_country_type = recognized
+						}
+					}
+				}
+			}
+			scope:initiator = {
+				NOT = {
+					any_overlord_or_above = {
+						OR = {
+							is_country_type = colonial
+							is_country_type = recognized
+						}
+					}
+				}
+			}
+		}
+	}
+}

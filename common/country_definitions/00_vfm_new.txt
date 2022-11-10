@@ -1,0 +1,10 @@
+NFL = {
+	color = { 245 245 245 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { anglo_canadian }
+	capital = STATE_NEWFOUNDLAND
+}

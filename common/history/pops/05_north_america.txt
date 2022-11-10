@@ -1412,7 +1412,7 @@
 		}
 	}
 	s:STATE_NEWFOUNDLAND = {
-		region_state:GBR = {
+		region_state:NFL = {
 			create_pop = {
 				culture = inuit
 				size = 7980
