@@ -1,0 +1,5 @@
+﻿l_english:
+ chartered_company:0 "Chartered Company"
+ chartered_company_pact_desc:0 "A Chartered Company is a company that functions as a semi-independent state from its overlord. It is able to interact freely with other countries, so long as they are unrecognised."
+ chartered_company_action_ask_to_break_name:0 "Demand Independence"
+ chartered_company_action_break_name:0 "Grant Independent Charter"
