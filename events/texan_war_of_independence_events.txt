@@ -235,6 +235,7 @@ texan_war_of_independence.3 = {
 				target_is = c:MEX
 			}
 			resolve_play_for = c:TEX
+			end_play = yes
 		}
 		hidden_effect = {
 			c:TEX = { save_scope_as = texas_scope }
